@@ -64,6 +64,19 @@ Follow the workflow defined in the cv-optimization skill:
 
 Generate the final CV in ~~default_output_format format.
 
+### File Naming Convention
+
+Extract these three values during analysis and use them for the output filename:
+- **Candidate name** — from the CV header/contact section
+- **Position title** — from the job description title
+- **Company name** — from the job description
+
+Format: `[CandidateName]_[Position]_[Company]_Resume.ext`
+- Replace spaces with underscores
+- Remove special characters
+- Keep it concise (abbreviate long titles if needed)
+- Example: `John_Smith_Senior_Software_Engineer_Google_Resume.docx`
+
 ### DOCX output
 Use the docx skill to generate a professionally formatted Word document with:
 - Clean, ATS-friendly formatting (single column, standard fonts, proper heading styles)
@@ -72,11 +85,11 @@ Use the docx skill to generate a professionally formatted Word document with:
 - The user's name as the document title
 - Respect ~~page_limit page limit
 
-Save to the workspace folder with the filename: `[UserName]_Resume_Optimized.docx`
+Save to the workspace folder using the naming convention above.
 
 ### PDF output
 Use the pdf skill to generate a clean, text-selectable PDF with the same formatting standards.
-Save as: `[UserName]_Resume_Optimized.pdf`
+Save to the workspace folder using the naming convention above with `.pdf` extension.
 
 ## Summary Report
 
