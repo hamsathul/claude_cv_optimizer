@@ -1,0 +1,28 @@
+{
+  "name": "resume-optimizer",
+  "version": "0.1.0",
+  "description": "Claude Cowork plugin that optimizes CVs and resumes for specific job descriptions — ATS-friendly, human-sounding, interview-ready",
+  "author": "nco",
+  "license": "MIT",
+  "keywords": [
+    "claude",
+    "cowork",
+    "plugin",
+    "resume",
+    "cv",
+    "ats",
+    "job",
+    "career",
+    "optimization"
+  ],
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "files": [
+    ".claude-plugin/",
+    "commands/",
+    "skills/",
+    "README.md"
+  ]
+}

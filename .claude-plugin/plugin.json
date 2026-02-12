@@ -1,0 +1,9 @@
+{
+  "name": "resume-optimizer",
+  "version": "0.1.0",
+  "description": "Optimize CVs and resumes for specific job descriptions — ATS-friendly, human-sounding, interview-ready",
+  "author": {
+    "name": "nco"
+  },
+  "keywords": ["resume", "cv", "ats", "job", "career", "optimization"]
+}
