@@ -66,16 +66,15 @@ Generate the final CV in ~~default_output_format format.
 
 ### File Naming Convention
 
-Extract these three values during analysis and use them for the output filename:
-- **Candidate name** — from the CV header/contact section
+Extract these two values during analysis and use them for the output filename:
 - **Position title** — from the job description title
 - **Company name** — from the job description
 
-Format: `[CandidateName]_[Position]_[Company]_Resume.ext`
+Format: `[Position]_[Company]_Resume.ext`
 - Replace spaces with underscores
 - Remove special characters
 - Keep it concise (abbreviate long titles if needed)
-- Example: `John_Smith_Senior_Software_Engineer_Google_Resume.docx`
+- Example: `Senior_Software_Engineer_Google_Resume.docx`
 
 ### DOCX output
 Use the docx skill to generate a professionally formatted Word document with:
