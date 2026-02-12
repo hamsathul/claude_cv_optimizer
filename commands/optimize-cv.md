@@ -30,6 +30,17 @@ Ask the user to paste the full job description. Tell them:
 
 Wait for the user to provide the job description before proceeding.
 
+## Regional & Format Settings
+
+Apply these customization settings throughout the optimization:
+
+- **Resume style**: ~~resume_style (controls overall structure and conventions)
+- **Language**: ~~default_language
+- **Include photo placeholder**: ~~include_photo
+- **Date format**: ~~date_format
+- **Personal details level**: ~~include_personal_details (Minimal = name/email/phone/city, Standard = adds nationality/visa, Full = adds DOB/marital status)
+- **Page limit**: ~~page_limit pages maximum
+
 ## Analysis & Optimization
 
 Follow the workflow defined in the cv-optimization skill:
@@ -37,7 +48,7 @@ Follow the workflow defined in the cv-optimization skill:
 1. **Parse the CV** — Extract all content and identify every section dynamically.
 2. **Analyze the JD** — Extract required qualifications, preferred qualifications, key responsibilities, technical skills, soft skills, industry terminology, action verbs, and culture signals.
 3. **Gap analysis** — Map CV content against JD requirements. Identify strong matches, partial matches, gaps, and irrelevant content.
-4. **Section-by-section optimization** — Rewrite each section following the section guidelines reference. Preserve the user's authentic experience while aligning language, keywords, and emphasis to the JD.
+4. **Section-by-section optimization** — Rewrite each section following the section guidelines reference. Preserve the user's authentic experience while aligning language, keywords, and emphasis to the JD. Respect the ~~resume_style conventions for section ordering, length, and what to include.
 5. **ATS compliance check** — Verify against every item in the ATS checklist.
 6. **Human tone review** — Ensure the final text sounds natural, specific, and like something the user would confidently say in an interview.
 
@@ -51,16 +62,19 @@ Follow the workflow defined in the cv-optimization skill:
 
 ## Output
 
-### Default: DOCX
+Generate the final CV in ~~default_output_format format.
+
+### DOCX output
 Use the docx skill to generate a professionally formatted Word document with:
 - Clean, ATS-friendly formatting (single column, standard fonts, proper heading styles)
 - Consistent spacing and margins
 - Standard bullet characters
 - The user's name as the document title
+- Respect ~~page_limit page limit
 
 Save to the workspace folder with the filename: `[UserName]_Resume_Optimized.docx`
 
-### If user requests PDF
+### PDF output
 Use the pdf skill to generate a clean, text-selectable PDF with the same formatting standards.
 Save as: `[UserName]_Resume_Optimized.pdf`
 

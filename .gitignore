@@ -10,9 +10,6 @@ Desktop.ini
 *.swo
 *~
 
-# Packaged plugin output
-*.plugin
-
 # Node
 node_modules/
 npm-debug.log*

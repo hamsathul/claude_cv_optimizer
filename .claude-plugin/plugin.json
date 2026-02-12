@@ -1,9 +1,10 @@
 {
   "name": "resume-optimizer",
   "version": "0.1.0",
-  "description": "Optimize CVs and resumes for specific job descriptions — ATS-friendly, human-sounding, interview-ready",
+  "description": "Analyze and rewrite CVs section-by-section against a target job description to maximize interview callback rates while maintaining ATS compliance and natural human tone",
   "author": {
-    "name": "nco"
+    "name": "NCO"
   },
-  "keywords": ["resume", "cv", "ats", "job", "career", "optimization"]
+  "keywords": ["resume", "cv", "ats", "job", "career", "optimization", "interview", "job-description", "keyword-matching"],
+  "skills": ["./skills/", "./commands/"]
 }

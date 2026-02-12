@@ -17,7 +17,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/hamsathul/claude_cv_optimizer"
   },
   "files": [
     ".claude-plugin/",

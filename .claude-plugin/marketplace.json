@@ -1,0 +1,41 @@
+{
+  "name": "resume-optimizer",
+  "owner": {
+    "name": "NCO",
+    "email": "it@nco.ae"
+  },
+  "metadata": {
+    "description": "Optimize CVs and resumes for specific job descriptions — ATS-friendly, human-sounding, interview-ready"
+  },
+  "plugins": [
+    {
+      "name": "resume-optimizer",
+      "source": "./",
+      "description": "Analyze and rewrite CVs section-by-section against a target job description to maximize interview callback rates while maintaining ATS compliance and natural human tone",
+      "author": {
+        "name": "NCO"
+      },
+      "homepage": "https://github.com/hamsathul/claude_cv_optimizer",
+      "repository": "https://github.com/hamsathul/claude_cv_optimizer",
+      "keywords": [
+        "resume",
+        "cv",
+        "ats",
+        "job",
+        "career",
+        "optimization",
+        "interview",
+        "job-description",
+        "keyword-matching"
+      ],
+      "category": "workflow",
+      "tags": [
+        "resume",
+        "cv",
+        "ats",
+        "career",
+        "optimization"
+      ]
+    }
+  ]
+}
